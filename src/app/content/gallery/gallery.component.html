@@ -1,0 +1,8 @@
+<div class="container-gallery"
+    style="display: grid;"
+    [style.grid-template-columns]="'repeat(2, 2fr)'"
+    [style.gap]="'.8rem'">
+    @for (poke of listPokemon; track poke.url) {
+        <app-card [pokemon]="poke"></app-card>
+    }
+</div>

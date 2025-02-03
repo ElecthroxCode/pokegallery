@@ -1,0 +1,9 @@
+<div class="card"
+    [style.text-align]="'center'">
+    <img [ngSrc]="pokemon.url"
+         [alt]="pokemon.name" width="400" height="400">
+    <div class="content-card"
+    [style.text-align]="'left'">
+        <h3 [style.color]="'#141607'">{{ capitalizeName(pokemon.name) }}</h3>
+    </div>
+</div>

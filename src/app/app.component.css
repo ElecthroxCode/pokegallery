@@ -1,0 +1,5 @@
+
+.container{display: flex; flex-direction: column;}
+main{flex-grow: 1; min-height: 100vh;}
+
+.container app-footer{flex-shrink: 0;}
